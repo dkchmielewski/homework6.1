@@ -9,6 +9,8 @@ public class Company {
         employees[0] = employee1;
         employees[1] = employee2;
 
-        employeeBuilder.salaryCost(employees);
+        EmployeeCalculations employeeCalculations = new EmployeeCalculations();
+
+        employeeCalculations.salaryCost(employees);
     }
 }
